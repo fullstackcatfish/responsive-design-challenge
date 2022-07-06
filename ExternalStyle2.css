@@ -1,0 +1,213 @@
+A:link {
+	color: gray
+}
+
+
+
+
+
+Body {
+	background-color: white;
+	font-family: cambria;
+	color: gray
+}
+
+H1 {
+	font-size: 50pt;
+	text-align: center;
+}
+
+H2 {
+	font-size: 25pt;
+	text-align: center;
+}
+
+H3 {
+	font-size: 10pt;
+	text-align: center
+}
+
+H4 {
+	text-align: center
+}
+
+H5 {
+	font-size: 15pt
+}
+
+P {
+	font-size: 10pt;
+	font-family: monospace
+}
+
+Table {
+	width: 400px;
+	font-family: monospace;
+	color: white;
+	background-color: green;
+	margin: .8em;
+	border-color: darkgreen
+}
+
+
+Form {
+	font-family: monospace;
+	text-align: center;
+	color: white;
+	background-color: green
+}
+
+@media only screen and (max-width: 800px) {
+	Body {
+		font-size: 80%;
+		background-color: white;
+		font-family: cambria;
+		color: gray
+	}
+	
+	H1 {
+		font-size: 80%;
+		text-align: center;
+	}
+	
+	H2 {
+		font-size: 80%;
+		text-align: center;
+	}
+	
+	H3 {
+		font-size: 80%;
+		text-align: center
+	}
+	
+	H4 {
+		text-align: center
+	}
+	
+	H5 {
+		font-size: 80%
+	}
+	
+	P {
+		font-size: 80%;
+		font-family: monospace
+	}
+	Form {
+		font-family: monospace;
+		text-align: center;
+		color: white;
+		background-color: green
+	}
+
+	A:visited,
+	A:active {
+		color: green
+	}
+
+
+}
+
+@media only screen and (max-width: 767px) {
+	Body {
+		font-size: 60%;
+		background-color: white;
+		font-family: cambria;
+		color: gray
+	}
+	H1 {
+		font-size: 60%;
+		text-align: center;
+	}
+	
+	H2 {
+		font-size: 60%;
+		text-align: center;
+	}
+	
+	H3 {
+		font-size: 60%;
+		text-align: center
+	}
+	
+	H4 {
+		text-align: center
+	}
+	
+	H5 {
+		font-size: 60%;
+	}
+	
+	P {
+		font-size: 60%;
+		font-family: monospace
+	}
+	Form {
+		font-family: monospace;
+		text-align: center;
+		color: white;
+		background-color: yellow
+	}
+
+	A:visited,
+	A:active {
+		color: yellow
+	}
+
+}
+
+@media only screen and (max-width: 479px) {
+	Body {
+		font-size: 40%;
+		background-color: white;
+		font-family: cambria;
+		color: gray
+	}
+	H1 {
+		font-size: 40%;
+		text-align: center;
+	}
+	
+	H2 {
+		font-size: 40%;
+		text-align: center;
+	}
+	
+	H3 {
+		font-size: 40%;
+		text-align: center
+	}
+	
+	H4 {
+		text-align: center
+	}
+	
+	H5 {
+		font-size: 40%
+	}
+	
+	P {
+		font-size: 40%;
+		font-family: monospace
+	}
+	Form {
+		font-family: monospace;
+		text-align: center;
+		color: white;
+		background-color: red
+	}
+
+	A:visited,
+	A:active {
+		color: red
+	}
+
+	header h3,
+	section h2:first-child:first-letter {
+
+		font-size: 80%;
+
+	}
+}
+
+
+
